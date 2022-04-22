@@ -1,0 +1,10 @@
+01: 官方的 key 案例(无法交换的颜色)
+02: 简化调试版 (无法交换的颜色)
+03: 简化调试版 + UniqueKey 颜色可交换
+04: StatelessWidget 为什么不会存在问题
+05: StatefulWidget 持有颜色信息不会出问题
+06: 案例二: 移除与内容状态混乱
+07: UniqueKey 的局限性
+08: 使用 ValueKey 解决问题
+09: 使用 GlobalKey 保存 widget 为图片
+10: GlobalKey 调试分析
