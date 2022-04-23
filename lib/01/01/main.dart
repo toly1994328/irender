@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const ColoredBox(color: Colors.red));
+  runApp(
+    const ColoredBox(color: Colors.red),
+  );
 }
