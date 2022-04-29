@@ -1,9 +1,19 @@
 import 'package:flutter/material.dart';
 
+// void main() {
+//   runApp(
+//     const MaterialApp(
+//       home: MyApp(),
+//     ),
+//   );
+// }
+
+
 void main() {
   runApp(
-    const MaterialApp(
-      home: MyApp(),
+    const Directionality(
+      textDirection: TextDirection.ltr,
+      child: MyApp(),
     ),
   );
 }

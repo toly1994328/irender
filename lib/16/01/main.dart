@@ -30,12 +30,12 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance!.scheduleFrameCallback((Duration timeStamp) {
+    SchedulerBinding.instance!.scheduleFrameCallback((Duration timeStamp) {
       print('===scheduleFrameCallback===帧开始=========');
     });
-    WidgetsBinding.instance!.addPostFrameCallback((Duration timeStamp) {
-      print('===addPostFrameCallback===监听帧=========');
-    });
+    // WidgetsBinding.instance!.addPostFrameCallback((Duration timeStamp) {
+    //   print('===addPostFrameCallback===监听帧=========');
+    // });
 
     SchedulerBinding.instance!.addPostFrameCallback((Duration timeStamp) {
       print('===addPostFrameCallback===监听帧=========');

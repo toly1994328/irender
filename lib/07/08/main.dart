@@ -30,9 +30,18 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('HomePage'),),
-      body: ElevatedButton(
-        onPressed: _do2,
-        child: Text('RUN'),
+      body: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          ElevatedButton(
+            onPressed: _do,
+            child: Text('10 亿次对象创建'),
+          ),
+          ElevatedButton(
+            onPressed: _do2,
+            child: Text('10 亿累加计算'),
+          ),
+        ],
       ),
     );
   }

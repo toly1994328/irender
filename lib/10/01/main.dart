@@ -13,27 +13,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Widget text =  Text('hello');
     return Row(
-      // textDirection:TextDirection.ltr,
-      children: const [
-        Flexible(
-          child: SizedBox(
-            width: 100,
-            height: 100,
-            child: ColoredBox(
-              color: Colors.blue,
-            ),
-          ),
-        ),
-        SizedBox(
-          width: 100,
-          height: 100,
-          child: ColoredBox(
-            color: Colors.red,
-          ),
-        ),
+      children:  [
+        text,
+        text,
       ],
     );
   }
 }
-

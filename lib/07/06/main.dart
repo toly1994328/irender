@@ -1,5 +1,3 @@
-import 'dart:async';
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -22,6 +20,12 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Center(child: ElevatedButton(onPressed: () {}, child: Text('PUSH ME'))));
+    return Scaffold(
+      body: Center(
+          child: ElevatedButton(
+        onPressed: () {},
+        child: Text('PUSH ME'),
+      )),
+    );
   }
 }
